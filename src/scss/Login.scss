@@ -1,0 +1,24 @@
+.page-login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &-wrapper{
+    width: 480px;
+    box-sizing: border-box;
+    padding: 20px 92px 40px;
+    border:1px solid #eee;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 3px 0 rgba(213,213,213,0.7);
+    >h3{
+      text-align: center;
+    }
+  }
+
+  .login-form-block{
+    text-align: right;
+  }
+}

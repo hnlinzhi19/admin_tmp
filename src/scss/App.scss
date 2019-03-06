@@ -1,0 +1,11 @@
+.page {
+  &-loading{
+    text-align: center;
+    min-height: 400px;
+  }
+  &-404{
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+  }
+}
